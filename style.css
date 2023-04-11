@@ -1,0 +1,136 @@
+/* font-poppins */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital@1&family=Manrope:wght@700&family=Montserrat:ital,wght@0,500;0,700;1,500&family=Poppins:wght@400;500&display=swap');
+/* font-poppins */
+
+
+/* extra */
+body{ 
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+margin: 0;
+padding: 0%;
+
+}
+
+/* extra */
+
+
+/* header-style-start */
+
+.nav-part{
+    display: flex;
+    justify-content:space-between;
+    color: #3A3A3A;
+   
+}
+
+.heading-title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.heading-anchors{
+        width: 463px;
+        height: 36px;
+        padding-top: 30px;
+      
+}
+
+.heading-anchors a{
+    text-decoration: none;
+    margin-right: 30px ;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight:600;
+}
+/* header-style-end */
+
+
+
+/* main-top-part-start */
+
+.main-top-part-header{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 70px;
+}
+
+.heading-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    font-weight: bold;
+    font-size: 16px;
+    height: 44px;
+    width: 196px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.main-top-heading{
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.heading-para{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.heading-button i {
+    margin-left: 5px;
+}
+
+.main-top-right-img{
+    width: 440px;
+    height: 414px;
+    border: 3px solid #F1E4FF;
+    border-radius: 49%;
+    padding: 20px;
+    
+}
+
+
+.main-top-right-img img{
+   background-color: #F1E4FF;
+   border-radius: 50%;
+  
+    
+}
+
+/* main-top-part-end */
+
+
+/* top-brand-part-start */
+.brands-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.brands{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 110px;
+   width: 1110px;
+   background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 
+    inset 0px 11px 8px -10px #e9e3e3,
+    inset 0px -11px 8px -10px #e9e8e8; 
+}
+
+.brand-img{
+    margin-right: 30px;
+}
+/* top-brand-part-end*/
