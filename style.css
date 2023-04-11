@@ -88,20 +88,24 @@ padding: 0%;
     margin-left: 5px;
 }
 
-.main-top-right-img{
+.camera{
     width: 440px;
     height: 414px;
-    border: 3px solid #F1E4FF;
-    border-radius: 49%;
-    padding: 20px;
+    position: relative;
     
+      
+}
+.camera-bg{
+position: absolute;
+height: 475px;
+width: 475px;
+right: 140px;
+bottom: 330px;
 }
 
 
 .main-top-right-img img{
-   background-color: #F1E4FF;
-   border-radius: 50%;
-  
+   
     
 }
 
@@ -124,10 +128,7 @@ padding: 0%;
    width: 1110px;
    background-color: rgba(255, 255, 255, 1);
     color: #000;
-    border-radius: 10px;
-    box-shadow: 
-    inset 0px 11px 8px -10px #e9e3e3,
-    inset 0px -11px 8px -10px #e9e8e8; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 .brand-img{
@@ -191,6 +192,101 @@ padding: 0%;
     font-size: 14px;
 }
 
+.see-more{
+    color: #E02C6D;
+    position:relative;
+    left: 1050px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0%;
+    padding-top: 0;
+}
+
 
 /* popular-collection-end */
 
+
+/* featured-part-start */
+.featured-container{
+    display: flex;
+    justify-content: center;
+}
+
+.featured-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 270px;
+}
+
+.featured-img{
+    height: 270px;
+    width: 404px;
+    margin-right: 100px;
+}
+
+.featured-descrip{
+    width: 610px;
+    height: 224px;
+}
+
+.featured-descrip-heading{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.join-now{
+    width: 155px;
+    height: 44px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 15px;
+    margin-top: 10px;
+}
+.join-now i {
+    margin-left: 5px;
+
+}
+/* featured-part-end */
+
+
+
+/* footer-part-start */
+
+.footer-container{
+    margin-top: 100px;
+    background-color: #0A0826;
+    width: 100%;
+    height: 239px;
+    display: flex;
+    justify-content: center;
+    
+}
+.last-footer-part{
+   
+}
+
+.footer-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.last-footer-part p{
+    color: white;
+}
+
+.social-media-icons i{
+    color: white;
+    width: 32px;
+    height: 32px;
+
+}
+
+
+
+/* footer-part-end */
